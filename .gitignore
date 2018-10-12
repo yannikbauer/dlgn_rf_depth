@@ -99,6 +99,7 @@ ENV/
 
 # Ignore specific folders
 data/
+!data/dlgn_unit_list.mat # exception for this file
 results/
 code/.idea/
 
