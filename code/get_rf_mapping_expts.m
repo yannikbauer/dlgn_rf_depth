@@ -23,6 +23,7 @@ r           = 0.65;          % 0.7; regression index
 type        = 3;
 
 unitList = getAllUnits(corr_p, qi, cluster_qi, r, type);
+% save(fullfile(saveDir, 'dlgn_unit_list.mat'), 'unitList');
 
 %% Get corresponding sparse noise experiments
 
